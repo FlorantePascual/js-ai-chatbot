@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Landing Page</title>
+
+  <!-- Start of embed code snippet -->
+  <script src="./dist/ChatComponent.bundle.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Initialize the Chat component
+      if (window.ChatComponent) {
+        ChatComponent.init();
+      } else {
+        console.error('ChatComponent is not available');
+      }
+    });
+  </script>
+  <!-- /End of embed code snippet -->
+
+</head>
+
+<body>
+  <h1>Welcome to My Landing Page</h1>
+  <p>This is a simple landing page with no graphics, just plain text.</p>
+</body>
+
+</html>
