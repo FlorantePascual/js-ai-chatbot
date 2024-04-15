@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS AI Chatbot</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+        <!-- Import the font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body style="font-family: 'Montserrat', sans-serif;">
+        <button class="ai-bot-toggler">
+            <span><img src="./img/ai-bot-launcher.png" height="50" alt="AI Bot Launcher"></span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="ai-bot">
+            <header>
+                <img src="./img/ai-bot-avatar.png" alt="AI Bot Avatar">
+                <h2>AI Chatbot</h2>
+                <span class="ai-bot-close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="message-thread">
+                <li class="message incoming">
+                    <span><img src="./img/ai-bot-avatar.png" alt="AI Bot Avatar"></span>
+                    <p>Hello there! My name is {botName}<br>How may I assist you today?</p>
+                </li>
+            </ul>
+            <div class="message-input">
+                <textarea required placeholder="Message here ..."></textarea>
+                <span id="send-btn" class="material-symbols-outlined">send</span>
+            </div>
+        </div> 
+    </body>
+</html>
