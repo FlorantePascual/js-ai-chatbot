@@ -6,8 +6,8 @@ const aiBotToggler = document.querySelector(".ai-bot-toggler");
 const aiBotCloseBtn = document.querySelector(".ai-bot-close-btn");
 
 // Variables
-const inputInitialHeight = messageInput.scrollHeight - 32;;
-let userMessage = '';
+const inputInitialHeight = messageInput.scrollHeight - 32;
+let userMessage = "";
 
 // Functions
 
@@ -17,8 +17,8 @@ const generateResponse = (incomingListItem) => {
     incomingListItem.querySelector("p").textContent = response;
 
     // // simulate error
-    // incomingListItem.querySelector("p").textContent = 'An error occurred. Please try again.';
-    // incomingListItem.querySelector("p").classList.add('error');
+    // incomingListItem.querySelector("p").textContent = "An error occurred. Please try again.";
+    // incomingListItem.querySelector("p").classList.add("error");
 
     messageThreadBox.scrollTo(0, messageThreadBox.scrollHeight);
 }
@@ -28,7 +28,7 @@ const createMessageLine = (message, className) => {
   const listElement = document.createElement("li");
 
   listElement.classList.add("message", className);
-  const chatContent = className === 'outgoing' ? `<p></p>` : `<span><img src="./img/ai-bot-avatar.png" alt="AI Bot Avatar"></span><p></p>`;
+  const chatContent = className === "outgoing" ? `<p></p>` : `<span><img src="./img/ai-bot-avatar.png" alt="AI Bot Avatar"></span><p></p>`;
 
   listElement.innerHTML = chatContent;
   listElement.querySelector("p").textContent = message;
@@ -45,7 +45,7 @@ const handleChat = () => {
     messageInput.style.height = `${inputInitialHeight}px`;
 
     // Append user's message to the message-thread and reset to default height
-    messageThreadBox.appendChild(createMessageLine(userMessage, 'outgoing'));
+    messageThreadBox.appendChild(createMessageLine(userMessage, "outgoing"));
     messageThreadBox.scrollTo(0, messageThreadBox.scrollHeight);
 
     const incomingListItem = createMessageLine("Thinking ...", 'incoming');
