@@ -131,13 +131,6 @@ export const STYLES = `
 }
 
 .message-thread .incoming span {
-    height: 32px;
-    width: 32px;
-    color: #fff;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 32px;
-    margin: 0 8px 2px 0;
     align-self: flex-end;
 }
 
