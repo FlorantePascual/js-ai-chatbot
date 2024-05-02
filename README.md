@@ -1,6 +1,8 @@
 # JavaScript AI Chatbot for Websites
 This repository contains a basic AI-powered Chatbot that can be embedded on websites. It is lightweight using only plain JavaScript, HTML and CSS, then bundled via WebPack. It demonstrates how to connect to the OpenAI API through a [scalable backend proxy](https://github.com/FlorantePascual/node-email-sms-plus), again minimal using only NodeJS.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Gwc-51nihA1p0Fns&amp;list=PLDqYEEcESYgxyphKmtXOa2nUc2KIP3pRa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Motivation
 The motivation behind this project is to provide a foundational learning experience for understanding AI chatbots, their integration, and the process of embedding them into websites. Much like understanding how a car works is essential for a driver, comprehending the underlying principles of AI chatbots and their integration can empower developers and enthusiasts to create more sophisticated and effective chatbot solutions.
 
