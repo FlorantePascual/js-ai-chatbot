@@ -1,23 +1,23 @@
 // Modify the following constants to customize the chatbot
 
 // API_URL: The URL of the OpenAI API proxy function
-export const API_URL = 'http://127.0.0.1:5001/your-firebase-project/us-central1/openaiProxy'
-export const OVERRIDE_KEY = 'GODisGood!';
+export const API_URL = "http://127.0.0.1:5001/your-firebase-project/us-central1/openaiProxy"
+export const OVERRIDE_KEY = "GODisGood!";
 
 // Custom Colors
-const PRIMARY_COLOR = '#7635dc';
-const BACKGROUND_COLOR = '#f8f8f8';
+const PRIMARY_COLOR = "#7635dc";
+const BACKGROUND_COLOR = "#f8f8f8";
 
 // images
-export const AI_BOT_AVATAR = 'https://firebasestorage.googleapis.com/v0/b/ai-tutorial-one.appspot.com/o/public%2Fchatbot-demo%2Fimg%2Fai-bot-avatar.png?alt=media&token=efd6de3c-acf2-42e7-9d3b-54351a6824d0';
-export const AI_BOT_LAUNCHER = 'https://firebasestorage.googleapis.com/v0/b/ai-tutorial-one.appspot.com/o/public%2Fchatbot-demo%2Fimg%2Fai-bot-launcher.png?alt=media&token=0882d381-653f-4f9d-b528-96b53ad2e73a';
+export const AI_BOT_AVATAR = "https://firebasestorage.googleapis.com/v0/b/ai-tutorial-one.appspot.com/o/public%2Fchatbot-demo%2Fimg%2Fai-bot-avatar.png?alt=media&token=efd6de3c-acf2-42e7-9d3b-54351a6824d0";
+export const AI_BOT_LAUNCHER = "https://firebasestorage.googleapis.com/v0/b/ai-tutorial-one.appspot.com/o/public%2Fchatbot-demo%2Fimg%2Fai-bot-launcher.png?alt=media&token=0882d381-653f-4f9d-b528-96b53ad2e73a";
 
 // AI_BOT_NAME: The name of the chatbot
-export const AI_BOT_NAME = 'Kernel Bot';
+export const AI_BOT_NAME = "Kernel Bot";
 
 // STYLES: The CSS styles for the chatbot
 export const STYLES = `
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 #chat-container {
     font-family: "Montserrat", sans-serif;
 }
@@ -220,9 +220,9 @@ export const STYLES = `
 // CHATBOT_HTML: The HTML structure for the chatbot
 export const CHATBOT_HTML = `
 <header>
-<img src="${AI_BOT_AVATAR}" alt="AI Bot Avatar">
-<h2>AI Chatbot</h2>
-<span class="ai-bot-close-btn material-symbols-outlined">close</span>
+    <img src="${AI_BOT_AVATAR}" alt="AI Bot Avatar">
+    <h2>AI Chatbot</h2>
+    <span class="ai-bot-close-btn material-symbols-outlined">close</span>
 </header>
 <ul class="message-thread">
 <li class="message incoming">
