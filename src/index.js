@@ -1,13 +1,13 @@
-import ChatComponent from './ChatComponent';
+import ChatComponent from "./ChatComponent";
 
 // This function will initialize the chat component
 function initializeChat() {
-  const chatContainerId = 'chat-container';
+  const chatContainerId = "chat-container";
   let chatContainer = document.getElementById(chatContainerId);
 
   // If the chat container doesn't exist, create it and append to the body
   if (!chatContainer) {
-    chatContainer = document.createElement('div');
+    chatContainer = document.createElement("div");
     chatContainer.id = chatContainerId;
     document.body.appendChild(chatContainer);
   }

@@ -48,7 +48,7 @@ const handleChat = () => {
     messageThreadBox.appendChild(createMessageLine(userMessage, "outgoing"));
     messageThreadBox.scrollTo(0, messageThreadBox.scrollHeight);
 
-    const incomingListItem = createMessageLine("Thinking ...", 'incoming');
+    const incomingListItem = createMessageLine("Thinking ...", "incoming");
     messageThreadBox.appendChild(incomingListItem);
     messageThreadBox.scrollTo(0, messageThreadBox.scrollHeight);
     setTimeout(() => {
